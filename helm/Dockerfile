@@ -16,7 +16,7 @@ ARG USER=ubuntu
 #  can be built.
 ARG DOCKER_KERNEL_VERSION=linux-image-kvm
 
-ENV TZ=America/Los_Angeles
+ENV TZ=America/Moncton
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN DEBCONF_FRONTEND=noninteractive apt update \
